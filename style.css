@@ -16,10 +16,18 @@ html { box-sizing: border-box; }
 
 body {
     background-color: #bdc3c7;
-    width: 250px;
-    padding-top: 25px;
+    padding-top: 35px;
     padding-left: 10px;
-    box-shadow: dimgray;
+}
+
+.profil {
+    background-color: #31363b;
+    box-shadow: 5px 5px 5px slategrey;
+    width: 250px;
+}
+
+.hlavicka {
+    margin-bottom: -0.5rem;
 }
 
 .jmeno {
@@ -29,11 +37,9 @@ body {
     color: white;
     padding-top: 2px;
     padding-left: 5px;
-    width: 250px;
 }
 
 .obsah {
-    position: relative;
     background-color: #31363b;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1rem;
@@ -42,19 +48,14 @@ body {
     padding-top: 30px;
     padding-left: 15px;
     padding-bottom: 15px;
-    width: 250px;
     border-bottom: 1px solid #bdc3c7;
-}
-
-.foto {
-    position: relative;
     width: 250px;
 }
 
 .logo {
-    position: absolute;
+    position: relative;
     top: 20px;
-    right: 10px;
+    left: -5rem;
     border: 2px solid #b92e81;
     border-radius: 50%;
     background-color: #b92e81;
@@ -87,7 +88,6 @@ body {
     padding-right: 10px;
 }
 
-
 .odkazy a {
     color: white;
     text-decoration: none;
@@ -98,10 +98,10 @@ body {
 }
 
 .facebook a:hover {
-    background-color:  #3b5998;
+    background-color: #3b5998;
 }
 
 .twitter a:hover {
-    background-color: #1da1f2
+    background-color: #1da1f2;
 }
 
